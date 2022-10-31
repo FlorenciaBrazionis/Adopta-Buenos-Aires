@@ -1,0 +1,62 @@
+/* Edicion del index */ 
+.cuerpo {
+    display: flex;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    font-style: light;
+    justify-content:center;
+    text-align:justify;
+    
+  
+}
+
+h3 {
+    padding: 20px;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+    
+    
+} 
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: black;
+    font-family:'Archivo', sans-serif;
+    font-weight: 10;
+    font-size: 20px;
+
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color:#fec118;
+    font-family:'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;    
+    
+}
+
+.foto {
+    display: grid;
+    grid-area: foto;
+}
+
+.titulo-body {
+    background-image: url("../multimedia/vista-lateral-perro-mirando-lejos-copia-espacio_23-2148326235.jpg");
+    color:#fec118;
+    @extend .titulos;
+  
+
+}
+

@@ -1,0 +1,17 @@
+/* estilo sur */
+.titulo-sur {
+    background-image: url("../multimedia/perro-pequeno-siendo-adorable-retrato-estudio_23-2149016956.jpg");
+    @extend .titulos;
+
+}
+
+.link-sur a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.link-sur {
+    @extend .links;
+
+}

@@ -1,0 +1,20 @@
+/* estilo norte */
+.titulo-norte {
+    background-image: url("../multimedia/perro-durmiendo-primer-plano-cabeza-perro-callejero-pelirrojo-comodidad-tranquilidad-mascotas_114160-1869.jpg");
+    @extend .titulos;
+}
+
+.imagen-norte {
+    @extend .imagenes;
+}
+
+.link-norte a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.link-norte {
+    @extend .links;   
+
+}

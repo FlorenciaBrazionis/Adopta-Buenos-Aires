@@ -1,0 +1,21 @@
+/* estilo caba */
+.titulo-caba {
+    background-image: url("../multimedia/adorable-perro-basenji-marron-blanco-sonriendo-dando-maximo-cinco-aislado-blanco_346278-1657.jpg");
+    @extend .titulos;
+
+}
+
+.imagen-caba {
+    @extend .imagenes;
+}
+
+.link-caba a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.link-caba {
+    @extend .links;
+
+}

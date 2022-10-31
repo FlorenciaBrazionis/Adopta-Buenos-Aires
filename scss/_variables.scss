@@ -1,0 +1,38 @@
+
+
+.titulos {
+    display:flex;
+    justify-content: center;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+}
+
+
+.imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:10px; 
+    margin-bottom:50px;
+}
+
+.link:hover {
+    transform: scale(1);
+    color: #fec118;
+}
+
+.links {
+    background-color:white;
+    font-family:'Archivo', sans-serif;
+    font-style: light;
+    font-weight: 10;
+    font-size: 20px;
+}
+

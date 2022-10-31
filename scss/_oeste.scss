@@ -1,0 +1,19 @@
+/* estilo oeste */
+.titulo-oeste {
+    background-image: url("../multimedia/perro-sonriente-feliz-que-toma-autorretrato-playa_145134-352.jpg");
+    @extend .titulos;
+}
+
+
+.link-oeste a {
+    color: black;
+    text-decoration: none;
+  
+
+}
+
+.link-oeste {
+    @extend .links;
+
+
+}
