@@ -6,27 +6,30 @@ $amarillo: #fec118;
     justify-content:right;
     background-color: $amarillo;
     
+    .link-fb:hover {
+        transform: scale(1);
+        color: #3b5998;
+    }
+    
+    .link-ig:hover {
+        transform: scale(1);
+        color: #C13584;
+    }
+    
+    .link-wp:hover {
+        transform: scale(1);
+        color: #25D366;
+    }
 }
 
 .footer a {
     color: gray; 
     text-decoration: none;
     margin: 0 4px;
+   
     
+
 }
 
-.link-fb:hover {
-    transform: scale(1);
-    color: #3b5998;
-}
 
-.link-ig:hover {
-    transform: scale(1);
-    color: #C13584;
-}
-
-.link-wp:hover {
-    transform: scale(1);
-    color: #25D366;
-}
 

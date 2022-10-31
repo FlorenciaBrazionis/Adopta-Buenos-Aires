@@ -29,23 +29,20 @@
   flex-direction: row;
   justify-content: right;
   background-color: #fec118; }
+  .footer .link-fb:hover {
+    transform: scale(1);
+    color: #3b5998; }
+  .footer .link-ig:hover {
+    transform: scale(1);
+    color: #C13584; }
+  .footer .link-wp:hover {
+    transform: scale(1);
+    color: #25D366; }
 
 .footer a {
   color: gray;
   text-decoration: none;
   margin: 0 4px; }
-
-.link-fb:hover {
-  transform: scale(1);
-  color: #3b5998; }
-
-.link-ig:hover {
-  transform: scale(1);
-  color: #C13584; }
-
-.link-wp:hover {
-  transform: scale(1);
-  color: #25D366; }
 
 .titulos, .titulo-body, .titulo-caba, .titulo-norte, .titulo-oeste, .titulo-sur {
   display: flex;
@@ -181,7 +178,6 @@ h2 {
   h3 {
     font-size: 15px; }
   .titulo-header {
-    font-weight: 800;
     font-size: 35px;
     padding: 20px; }
   .navbar a {
